@@ -11,7 +11,7 @@
 }
 
 .arrows path {
-	stroke: #522500;
+	stroke: #f7c370;
 	fill: transparent;
 	stroke-width: 1px;	
 	animation: arrow 2s infinite;
@@ -47,4 +47,49 @@
 .arrows path.a3 {	
 	animation-delay:0s;
 	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+.header {
+  transition: all 0.3s ease;
+}
+
+.top {
+  top: 0px;
+}
+
+.down {
+  top: -90px;
+}
+
+.up {
+  top: 0px;
+}
+
+.up,
+.down {
+  background: #14213d;
+  box-shadow: 0px 0px 8px black;
+}
+
+.social {
+  position: fixed;
+  top: 36%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.social a {
+  display: block;
+  text-align: center;
+  padding: 26px;
+  transition: all 0.3s ease;
+  color: #C9ADA7;
+  font-size: 26px;
+}
+
+.social a:hover{
+  color: #FCA311;
+  transform: translateY(-0.20em);
+  /* background-color: black; */
 }

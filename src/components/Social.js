@@ -32,7 +32,7 @@ const Social = () => {
         <BsLinkedin />
       </a>
       <a 
-      href="#"
+      href="mailto:evali3101@gmail.com"
       >
         <FiMail />
       </a>

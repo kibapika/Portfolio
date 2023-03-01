@@ -79,7 +79,7 @@ const Navbar = () => {
               data-aos-offset="0"
               className="cursor-point ml-5 text-[#C9ADA7] hover:text-[#FCA311]"
             >
-              Skills
+              Tech
             </button>
           </Link>
           <Link to="projects" smooth={true} duration={800}>

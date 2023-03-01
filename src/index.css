@@ -6,6 +6,7 @@ body {
   background-color: #14213d;
 }
 
+/* arrow btn in intro.js */
 .arrows {
 	width: 60px;
 	height: 72px;
@@ -53,6 +54,7 @@ body {
 	-webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
 
+/* navbar */
 .header {
   transition: all 0.3s ease;
 }
@@ -72,9 +74,10 @@ body {
 .up,
 .down {
   background: #14213d;
-  box-shadow: 0px 0px 8px black;
+  box-shadow: 0px 0px 8px #040c16;
 }
 
+/* sidebar social.js */
 .social {
   position: fixed;
   top: 36%;
@@ -96,4 +99,51 @@ body {
   color: #FCA311;
   transform: translateY(-0.20em);
   /* background-color: black; */
+}
+
+/* png skills.js */
+.png img:hover{
+  transform: translateY(-0.5em);
+  transition-duration: 0.3s; 
+  box-shadow: 0px 0px 20px #FCA311;
+}
+
+/* img profile pic */
+.headShot {
+  --color: #FCA311; /* the border color */
+  --border: 5px;   /* the border thickness*/
+  --offset: 15px;   /* control the offset*/
+  --gap: 3px;       /* the gap on hover */
+  
+  --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
+  --_o: calc(3*var(--offset));
+  padding: 
+    calc(var(--gap) + var(--border))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border));
+  background: 
+    linear-gradient(var(--_c)) var(--_o) var(--_o), 
+    linear-gradient(90deg,var(--_c)) var(--_o) var(--_o);
+  background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
+  background-repeat: no-repeat;
+  /* filter: grayscale(.4); */
+  transition: .5s;
+  cursor: pointer;
+}
+
+.headShot:hover {
+  background-position: 0px 0px;
+  background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
+  filter: grayscale(0);
+}
+
+#wrapper > :last-child {
+  display: none;
+}
+#wrapper.switched > :last-child {
+  display: block;
+}
+#wrapper.switched > :first-child {
+  display: none;
 }

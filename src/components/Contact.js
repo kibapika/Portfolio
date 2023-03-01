@@ -3,23 +3,28 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Contact = () => {
+  
   useEffect(() => {
     AOS.init();
   }, []);
 
   return (
     <div
+      data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-delay="500"
+      data-aos-offset="0"
       className="flex flex-col justify-center items-start"
       style={{ width: "70vw" }}
     >
       <h1
-        className="text-[#FCA311] tracking-wide"
+        className="text-[#FCA311] tracking-wide pb-2"
         style={{ fontSize: "5vw", fontFamily: "Share Tech Mono" }}
       >
         Contact
       </h1>
       <p
-        className="text-[#C9ADA7] tracking-widest"
+        className="text-[#C9ADA7] tracking-widest pb-2"
         style={{ fontSize: "1.5vw", fontFamily: "Roboto" }}
       >
         Get in touch or shoot me an email directly on evali3101@gmail.com

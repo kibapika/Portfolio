@@ -110,7 +110,7 @@ const Navbar = () => {
             data-aos-delay="1000"
             data-aos-offset="0"
           >
-            <button className="text-[#FCA311] group border-2 border-[#FCA311] rounded-md px-3 py-1.5 ml-5 flex items-center cursor-point hover:bg-[#FCA311] hover:border-[#FCA311] hover:bg-opacity-20 hover:duration-300">
+            <button className="text-[#FCA311] group border-2 border-[#FCA311] rounded-sm px-3 py-1.5 ml-5 flex items-center cursor-point hover:bg-[#FCA311] hover:border-[#FCA311] hover:bg-opacity-20 hover:duration-300">
               <a href="/resume.pdf">Resume</a>
             </button>
           </div>

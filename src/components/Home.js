@@ -27,37 +27,37 @@ const Home = () => {
       </section>
       <section
       name="intro"
-      className="flex flex-col justify-center items-center w-full h-full bg-[#14213d]"
+      className="flex justify-center items-center w-full h-full bg-[#14213d]"
       >
         <Intro />
       </section>
       <section
         name="about"
-        className="flex flex-col justify-center items-center w-full h-full bg-[#14213d]"
+        className="flex justify-center items-center w-full h-full bg-[#14213d]"
       >
         <About />
       </section>
       <section
         name="exp"
-        className="flex flex-col justify-center items-center w-full h-full bg-[#14213d]"
+        className="flex justify-center items-center w-full h-full bg-[#14213d]"
       >
         <Exp />
       </section>
       <section
         name="skills"
-        className="flex flex-col justify-center items-center w-full h-full bg-[#14213d]"
+        className="flex justify-center items-center w-full h-full bg-[#14213d]"
       >
         <Skills />
       </section>
       <section
         name="projects"
-        className="flex flex-col justify-center items-center w-full h-full bg-[#14213d]"
+        className="flex justify-center items-center w-full h-full bg-[#14213d]"
       >
         <Projects />
       </section>
       <section
         name="contact"
-        className="flex flex-col justify-center items-center w-full h-full bg-[#14213d]"
+        className="flex justify-center items-center w-full h-full bg-[#14213d]"
       >
         <Contact />
       </section>

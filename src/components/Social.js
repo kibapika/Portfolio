@@ -4,9 +4,6 @@ import "aos/dist/aos.css";
 import { FiGithub, FiMail } from "react-icons/fi";
 import { BsLinkedin } from "react-icons/bs";
 
-
-
-
 const Social = () => {
 
   useEffect(() => {

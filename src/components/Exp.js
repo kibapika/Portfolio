@@ -49,7 +49,7 @@ const Exp = () => {
       </h1>
 
       <label 
-      className="cb flex flex-row justify-evenly items-center p-3 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5 hover:bg-[#161a1d]"
+      className="flex flex-row justify-between items-center py-3 px-7 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5] hover:bg-[#161a1d] hover:duration-200"
       style={{
         width: "70vw",
         fontSize: "1.25vw",
@@ -91,7 +91,7 @@ const Exp = () => {
 {/* ------------------------------------------------------------------------ */}
 
       <label 
-      className="cb flex flex-row justify-evenly items-center p-3 mt-4 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5 hover:bg-[#161a1d]"
+      className="flex flex-row justify-between items-center py-3 px-7 mt-3 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5] hover:bg-[#161a1d] hover:duration-200"
       style={{
         width: "70vw",
         fontSize: "1.25vw",

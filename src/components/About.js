@@ -24,7 +24,6 @@ const About = () => {
       </h1>
       <div
         className="flex flex-row justify-center items-center"
-        // style={{ width: "70%" }}
       >
         <p
           className="text-[#C9ADA7] tracking-widest pr-10"

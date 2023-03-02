@@ -49,7 +49,7 @@ const Contact = () => {
         className="w-[38rem] rounded-md p-2 mt-4"/>
         <textarea 
         name="comments"
-        rows="10"
+        rows="8"
         // cols="68"
         placeholder="Message"
         className="w-[38rem] rounded-md p-2 mt-4"/>

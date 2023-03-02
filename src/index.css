@@ -137,13 +137,3 @@ body {
   background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
   filter: grayscale(0);
 }
-
-#wrapper > :last-child {
-  display: none;
-}
-#wrapper.switched > :last-child {
-  display: block;
-}
-#wrapper.switched > :first-child {
-  display: none;
-}

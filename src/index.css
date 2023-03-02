@@ -137,3 +137,33 @@ body {
   background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
   filter: grayscale(0);
 }
+
+/* exp.js btns */
+
+#check1 {
+  display: none;
+}
+
+.test1 {
+  -webkit-transition: height .5s ease;
+  height: 0;
+  overflow: hidden;
+}
+
+input:checked + .test1 {
+  height: 255px;
+}
+
+#check2 {
+  display: none;
+}
+
+.test2 {
+  -webkit-transition: height .5s ease;
+  height: 0;
+  overflow: hidden;
+}
+
+input:checked + .test2 {
+  height: 350px;
+}

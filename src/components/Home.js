@@ -8,6 +8,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Test from "./test";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

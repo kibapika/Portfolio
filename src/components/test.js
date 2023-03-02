@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Exp = () => {
+const Test = () => {
   const [exp1, setExp1] = useState(false);
 
   const [exp2, setExp2] = useState(false);
@@ -137,4 +137,4 @@ const Exp = () => {
   );
 };
 
-export default Exp;
+export default Test;

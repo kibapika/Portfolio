@@ -167,3 +167,17 @@ input:checked + .test1 {
 input:checked + .test2 {
   height: 350px;
 }
+
+#check3 {
+  display: none;
+}
+
+.test3 {
+  -webkit-transition: height .5s ease;
+  height: 0;
+  overflow: hidden;
+}
+
+input:checked + .test3 {
+  height: 158px;
+}

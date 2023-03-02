@@ -25,7 +25,7 @@ const Skills = () => {
       style={{ width: "70vw" }}
     >
       <div
-        data-aos="fade-up"
+        data-aos="zoom-out"
         data-aos-easing="linear"
         data-aos-delay="500"
         data-aos-offset="0"
@@ -43,7 +43,7 @@ const Skills = () => {
           Here are some technologies that I have used:
         </p>
       </div>
-      <div className="png w-full grid grid-rows-2 grid-cols-5 gap-4 py-8 place-items-center">
+      <div className="png w-full grid grid-rows-2 grid-cols-5 gap-y-10 gap-x-4 py-8 place-items-center">
         <div
           data-aos="fade-down"
           data-aos-easing="linear"
@@ -109,7 +109,7 @@ const Skills = () => {
         <div
           data-aos="fade-down"
           data-aos-easing="linear"
-          data-aos-duration="1450"
+          data-aos-duration="500"
         >
           <img
             className="bg-[#E5E5E5] p-2 rounded-lg shadow-xl shadow-[#040c16]"
@@ -121,7 +121,7 @@ const Skills = () => {
         <div
           data-aos="fade-down"
           data-aos-easing="linear"
-          data-aos-duration="1650"
+          data-aos-duration="650"
         >
           <img
             className="bg-[#E5E5E5] p-2 rounded-lg shadow-xl shadow-[#040c16]"
@@ -133,7 +133,7 @@ const Skills = () => {
         <div
           data-aos="fade-down"
           data-aos-easing="linear"
-          data-aos-duration="1850"
+          data-aos-duration="850"
         >
           <img
             className="bg-[#E5E5E5] p-2 rounded-lg shadow-xl shadow-[#040c16]"
@@ -145,7 +145,7 @@ const Skills = () => {
         <div
           data-aos="fade-down"
           data-aos-easing="linear"
-          data-aos-duration="2050"
+          data-aos-duration="1050"
         >
           <img
             className="bg-[#E5E5E5] p-2 rounded-lg shadow-xl shadow-[#040c16]"
@@ -157,7 +157,7 @@ const Skills = () => {
         <div
           data-aos="fade-down"
           data-aos-easing="linear"
-          data-aos-duration="2250"
+          data-aos-duration="1250"
         >
           <img
             className="bg-[#E5E5E5] p-2 rounded-lg shadow-xl shadow-[#040c16]"

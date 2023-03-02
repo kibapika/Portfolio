@@ -1,6 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Exp = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const [exp1, setExp1] = useState(false);
 
   const [exp2, setExp2] = useState(false);
@@ -68,6 +75,10 @@ const Exp = () => {
     <div
       className="flex flex-col justify-center items-start"
       style={{ width: "70vw" }}
+      data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-delay="500"
+      data-aos-offset="0"
     >
       <h1
         className="text-[#FCA311] tracking-wide pb-5"
@@ -88,7 +99,7 @@ const Exp = () => {
         <div
           className="flex flex-row justify-between items-center"
           style={{
-            width: "665px",
+            width: "60.5vw"
           }}
         >
           <span>Student | Fullstack Academy</span>
@@ -132,7 +143,7 @@ const Exp = () => {
         <div
           className="flex flex-row justify-between items-center"
           style={{
-            width: "665px",
+            width: "60.5vw"
           }}
         >
           <span>
@@ -186,7 +197,7 @@ const Exp = () => {
         <div
           className="flex flex-row justify-between items-center"
           style={{
-            width: "665px",
+            width: "60.5vw"
           }}
         >
           <span>

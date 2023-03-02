@@ -40,7 +40,7 @@ const Home = () => {
       </section>
       <section
         name="exp"
-        className="flex justify-center items-start pt-10 w-full h-full bg-[#14213d]"
+        className="flex justify-center items-center pt-10 w-full h-[90vh] max-h-fit bg-[#14213d]"
       >
         <Exp />
       </section>

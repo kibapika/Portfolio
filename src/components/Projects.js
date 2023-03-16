@@ -95,7 +95,7 @@ const Projects = () => {
             className="text-[#E5E5E5] tracking-widest pb-1"
             style={{ fontSize: "3vw", fontFamily: "Roboto" }}
           >
-            E-Commerce
+            Soles
           </h1>
           <p
             className="shadow-lg shadow-[#040c16] text-left text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5"
@@ -105,7 +105,7 @@ const Projects = () => {
               wordSpacing: "1px",
             }}
           >
-            Recreation of e-commerce sites based on shoes. A CRUD website focusing on React and Javascript.
+            Recreation of a e-commerce sites based on shoes. A CRUD website focusing on React and Javascript.
           </p>
           <span
             className="text-[#C9ADA7] py-3"
@@ -120,13 +120,13 @@ const Projects = () => {
           <div className="flex flex-row text-[22px] text-[#E5E5E5]">
             <a
               className="pr-5 hover:text-[#FCA311] hover:duration-200 hover:translate-y-[-0.20em]"
-              href="https://github.com/Team-H-Capstone/Mindful"
+              href="https://github.com/kibapika/Soles---Ecommerce"
             >
               <FiGithub />
             </a>
             <a
               className="hover:text-[#FCA311] hover:duration-300 hover:translate-y-[-0.20em]"
-              href="https://github.com/FSA-TeamK/GraceShopperProject-TeamK-V3"
+              href="https://github.com/kibapika/Soles---Ecommerce"
             >
               <FiExternalLink />
             </a>
@@ -134,7 +134,7 @@ const Projects = () => {
         </div>
         <a
             className="shadow-lg shadow-[#040c16]"
-            href="https://mindful-site.web.app/"
+            href="https://github.com/kibapika/Soles---Ecommerce"
           >
             <img
               className="contrast-50 hover:contrast-100 hover:duration-500 rounded-lg"

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import About from "./About";
 import Social from "./Social";
+import Built from "./Bulit";
 import Intro from "./Intro";
 import Navbar from "./Navbar";
 import Exp from "./Exp";
@@ -8,7 +9,6 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import Test from "./test";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -25,6 +25,9 @@ const Home = () => {
       </header>
       <section className="bg-[#14213d]">
         <Social />
+      </section>
+      <section className="bg-[#14213d]">
+        <Built />
       </section>
       <section
       name="intro"
@@ -46,7 +49,7 @@ const Home = () => {
       </section>
       <section
         name="skills"
-        className="flex justify-center items-center w-full w-full h-full bg-[#14213d] my-10"
+        className="flex justify-center items-center w-full h-full h-full bg-[#14213d] my-10"
       >
         <Skills />
       </section>

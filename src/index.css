@@ -100,6 +100,29 @@ body {
   transform: translateY(-0.20em);
 }
 
+/* ride side built link */
+.built {
+  position: fixed;
+  top: 36%;
+  right: 0;
+}
+
+.built a {
+  display: block;
+  text-align: center;
+  padding-right: 55px;
+  transition: all 0.3s ease;
+  color: #C9ADA7;
+  font-size: 26px;
+  float: right;
+}
+
+.built a:hover{
+  color: #FCA311;
+  transform: translateY(-0.20em);
+}
+
+
 /* png skills.js */
 .png img:hover{
   transform: translateY(-0.5em);

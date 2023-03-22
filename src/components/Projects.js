@@ -5,6 +5,7 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 import mindful from "../components/project/mindfulPic.png";
 import ecom from "../components/project/ecommercePic.png";
+import temp from "../components/project/tempsPic.png";
 
 const Projects = () => {
   useEffect(() => {
@@ -19,13 +20,23 @@ const Projects = () => {
       <h1
         className="text-[#FCA311] tracking-wide pb-2"
         style={{ fontSize: "5vw", fontFamily: "Share Tech Mono" }}
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-delay="500"
+        data-aos-offset="0"
       >
         Projects
       </h1>
 
       {/* ----------------------------------------------------------- */}
 
-      <section className="flex flex-row content-center items-center">
+      <section 
+      className="flex flex-row content-center items-center"
+      data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-delay="800"
+      data-aos-offset="0"
+      >
         <a
           className="shadow-lg shadow-[#040c16]"
           href="https://mindful-site.web.app/"
@@ -89,7 +100,13 @@ const Projects = () => {
 
       {/* ----------------------------------------------------------- */}
 
-      <section className="flex flex-row content-center items-center mt-[80px]">
+      <section 
+      className="flex flex-row content-center items-center mt-[80px]"
+      data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-delay="1100"
+      data-aos-offset="0"
+      >
         <div className="flex flex-col items-start mr-8">
           <h1
             className="text-[#E5E5E5] tracking-widest pb-1"
@@ -143,6 +160,70 @@ const Projects = () => {
               src={ecom}
             />
           </a>
+      </section>
+
+      {/* ----------------------------------------------------------- */}
+
+      <section 
+      className="flex flex-row content-center items-center mt-[80px]"
+      data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-delay="1400"
+      data-aos-offset="0"
+      >
+        <a
+          className="shadow-lg shadow-[#040c16]"
+          href="https://github.com/kibapika/Temps"
+        >
+          <img
+            className="contrast-50 hover:contrast-100 hover:duration-500 rounded-lg"
+            style={{ width: "70vw" }}
+            alt="temp"
+            src={temp}
+          />
+        </a>
+        <div className="flex flex-col items-end ml-8">
+          <h1
+            className="text-[#E5E5E5] tracking-widest pb-1"
+            style={{ fontSize: "3vw", fontFamily: "Roboto" }}
+          >
+            Temps
+          </h1>
+          <p
+            className="shadow-lg shadow-[#040c16] text-right text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5"
+            style={{
+              fontSize: "1.25vw",
+              fontFamily: "Roboto",
+              wordSpacing: "1px",
+            }}
+          >
+            Recreation of a weather app using React.js and axios. Mobile friendly!
+          </p>
+          <span
+            className="text-[#C9ADA7] py-3"
+            style={{
+              fontSize: "1.25vw",
+              fontFamily: "Roboto",
+              wordSpacing: "8px",
+            }}
+          >
+            React Node.js Axios Tailwind CSS
+          </span>
+          <div className="flex flex-row text-[22px] text-[#E5E5E5]">
+            <a
+              className="pr-5 hover:text-[#FCA311] hover:duration-200 hover:translate-y-[-0.20em]"
+              href="https://github.com/kibapika/Temps"
+            >
+              <FiGithub />
+            </a>
+            <a
+              className="hover:text-[#FCA311] hover:duration-300 hover:translate-y-[-0.20em]"
+              href="https://github.com/kibapika/Temps"
+            >
+              <FiExternalLink />
+            </a>
+          </div>
+        </div>
       </section>
 
       {/* ----------------------------------------------------------- */}

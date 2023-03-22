@@ -55,7 +55,7 @@ const Home = () => {
       </section>
       <section
         name="projects"
-        className="flex justify-center items-start w-full h-[145vh] max-h-fit bg-[#14213d] pt-8"
+        className="flex justify-center items-start w-full h-[200vh] max-h-fit bg-[#14213d] pt-8"
       >
         <Projects />
       </section>

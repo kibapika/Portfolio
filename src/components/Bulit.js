@@ -9,8 +9,7 @@ const Built = () => {
 
   return (
     <div
-      className="built"
-      style={{ width: "70vw" }}
+      className="built w-[70vw]"
       data-aos="fade-up"
       data-aos-easing="linear"
       data-aos-delay="2600"

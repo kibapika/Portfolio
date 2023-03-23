@@ -13,12 +13,11 @@ const About = () => {
       data-aos-easing="linear"
       data-aos-delay="500"
       data-aos-offset="0"
-      className="flex flex-col justify-center items-start"
-      style={{ width: "70vw" }}
+      className="flex flex-col justify-center items-start w-[70vw] max-[500px]:w-[125vw] max-[500px]:mt-[8rem]"
     >
       <h1
-        className="text-[#FCA311] tracking-wide pb-5"
-        style={{ fontSize: "5vw", fontFamily: "Share Tech Mono" }}
+        className="text-[#FCA311] tracking-wide pb-5 text-[4rem]"
+        style={{fontFamily: "Share Tech Mono" }}
       >
         About Me
       </h1>
@@ -26,8 +25,8 @@ const About = () => {
         className="flex flex-row justify-center items-center"
       >
         <p
-          className="text-[#C9ADA7] tracking-widest pr-10"
-          style={{ fontSize: "1.25vw", fontFamily: "Roboto" }}
+          className="text-[#C9ADA7] tracking-widest pr-10 text-[1rem]"
+          style={{fontFamily: "Roboto" }}
         >
           I am a recent graduate from Fullstack Academy and became a Software
           Engineer by honing my skills in Javascript, React, HTML, etc. I
@@ -44,8 +43,7 @@ const About = () => {
           my new skills to further aid people in some ways.
         </p>
         <img
-          className="headShot contrast-75"
-          style={{ width: "28vw" }}
+          className="headShot contrast-75 w-[28vw] max-[500px]:w-[50vw]"
           alt="head-shot"
           src="/img/evaLi.jpeg"
         />

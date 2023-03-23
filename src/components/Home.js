@@ -13,7 +13,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Home = () => {
-
   useEffect(() => {
     AOS.init();
   }, []);
@@ -23,51 +22,51 @@ const Home = () => {
       <header className="bg-[#14213d]">
         <Navbar />
       </header>
-      <section className="bg-[#14213d]">
+      <section className="sidebar bg-[#14213d]">
         <Social />
       </section>
-      <section className="bg-[#14213d]">
+      <section className="sidebar bg-[#14213d]">
         <Built />
       </section>
       <section
-      name="intro"
-      className="flex justify-center items-center w-full h-full bg-[#14213d]"
+        name="intro"
+        className="sec flex justify-center items-center w-full h-screen bg-[#14213d] max-[500px]:w-[41.5rem] max-[500px]:h-[54rem]"
       >
         <Intro />
       </section>
       <section
         name="about"
-        className="flex justify-center items-center w-full h-full bg-[#14213d]"
+        className="sec flex justify-center items-center w-full h-full bg-[#14213d] max-[500px]:w-[41.5rem]"
       >
         <About />
       </section>
       <section
         name="exp"
-        className="flex justify-center items-center pt-10 w-full h-[85vh] max-h-fit bg-[#14213d]"
+        className="sec flex justify-center items-center pt-10 w-full h-[85vh] max-h-fit bg-[#14213d] max-[500px]:w-[41.5rem]"
       >
         <Exp />
       </section>
       <section
         name="skills"
-        className="flex justify-center items-center w-full h-full h-full bg-[#14213d] my-10"
+        className="sec flex justify-center items-center w-full h-full h-full bg-[#14213d] my-10 max-[500px]:w-[41.5rem]"
       >
         <Skills />
       </section>
       <section
         name="projects"
-        className="flex justify-center items-start w-full h-[200vh] max-h-fit bg-[#14213d] pt-8"
+        className="sec flex justify-center items-start w-full h-[200vh] max-h-fit bg-[#14213d] pt-8 max-[500px]:w-[41.5rem] max-[500px]:h-[155vh]"
       >
         <Projects />
       </section>
       <section
         name="contact"
-        className="flex justify-center items-center w-full h-full bg-[#14213d]"
+        className="sec flex justify-center items-center w-full h-full h-full bg-[#14213d] max-[500px]:w-[41.5rem]"
       >
         <Contact />
       </section>
       <section
         name="footer"
-        className="flex justify-center items-center w-full bg-[#14213d]"
+        className="sec flex justify-center items-center w-full bg-[#14213d] max-[500px]:w-[41.5rem] max-[500px]:h-[10vh]"
       >
         <Footer />
       </section>

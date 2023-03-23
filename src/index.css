@@ -6,6 +6,12 @@ body {
   background-color: #14213d;
 }
 
+/* @media (max-width: 500px) {
+  .sidebar{
+    display: none;
+  }
+} */
+
 /* arrow btn in intro.js */
 .arrows {
 	width: 60px;
@@ -202,4 +208,22 @@ input:checked + .test2 {
 
 input:checked + .test3 {
   height: 158px;
+}
+
+@media (max-width: 500px) {
+  input:checked + .test3 {
+    height: 182px;
+  }
+}
+
+@media (max-width: 500px) {
+  input:checked + .test2 {
+    height: 470px;
+  }
+}
+
+@media (max-width: 500px) {
+  input:checked + .test1 {
+    height: 375px;
+  }
 }

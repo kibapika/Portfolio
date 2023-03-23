@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div 
-    className="flex flex-col justify-center center py-4"
+    className="flex flex-col justify-center center py-4 mt-[10px]"
     style={{ width: "70vw" }}
     >
       <a

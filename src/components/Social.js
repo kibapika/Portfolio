@@ -12,7 +12,7 @@ const Social = () => {
 
   return (
     <div 
-    className="social ml-8"
+    className="social ml-8 max-[500px]:ml-1"
     data-aos="fade-right"
     data-aos-easing="linear"
     data-aos-delay="2200"

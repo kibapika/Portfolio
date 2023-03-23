@@ -14,12 +14,11 @@ const Projects = () => {
 
   return (
     <div
-      className="flex flex-col justify-center items-start"
-      style={{ width: "70vw" }}
+      className="flex flex-col justify-center items-start w-[70vw] max-[500px]:w-[125vw]"
     >
       <h1
-        className="text-[#FCA311] tracking-wide pb-2"
-        style={{ fontSize: "5vw", fontFamily: "Share Tech Mono" }}
+        className="text-[#FCA311] tracking-wide pb-2 text-[4rem]"
+        style={{ fontFamily: "Share Tech Mono" }}
         data-aos="fade-up"
         data-aos-easing="linear"
         data-aos-delay="500"
@@ -42,23 +41,21 @@ const Projects = () => {
           href="https://mindful-site.web.app/"
         >
           <img
-            className="contrast-50 hover:contrast-100 hover:duration-500 rounded-lg"
-            style={{ width: "300vw" }}
+            className="contrast-50 hover:contrast-100 hover:duration-500 rounded-lg w-[300vw] max-[500px]:w-[700vw]"
             alt="mindful"
             src={mindful}
           />
         </a>
         <div className="flex flex-col items-end ml-8">
           <h1
-            className="text-[#E5E5E5] tracking-widest pb-1"
-            style={{ fontSize: "3vw", fontFamily: "Roboto" }}
+            className="text-[#E5E5E5] tracking-widest pb-1 text-[2.5rem]"
+            style={{ fontFamily: "Roboto" }}
           >
             Mindful
           </h1>
           <p
-            className="shadow-lg shadow-[#040c16] text-right text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5"
+            className="shadow-lg shadow-[#040c16] text-right text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5 text-[0.9rem]"
             style={{
-              fontSize: "1.25vw",
               fontFamily: "Roboto",
               wordSpacing: "1px",
             }}
@@ -72,14 +69,13 @@ const Projects = () => {
             mental health.
           </p>
           <span
-            className="text-[#C9ADA7] py-3"
+            className="text-[#C9ADA7] py-3 text-[0.9rem]"
             style={{
-              fontSize: "1.25vw",
               fontFamily: "Roboto",
               wordSpacing: "8px",
             }}
           >
-            React Node.js Firebase Tailwind Cloud Firestore
+            React Node.js Firebase Tailwind Firestore
           </span>
           <div className="flex flex-row text-[22px] text-[#E5E5E5]">
             <a
@@ -101,7 +97,7 @@ const Projects = () => {
       {/* ----------------------------------------------------------- */}
 
       <section 
-      className="flex flex-row content-center items-center mt-[80px]"
+      className="flex flex-row content-center items-center mt-[80px] max-[500px]:mt-[30px]"
       data-aos="fade-up"
       data-aos-easing="linear"
       data-aos-delay="1100"
@@ -109,15 +105,14 @@ const Projects = () => {
       >
         <div className="flex flex-col items-start mr-8">
           <h1
-            className="text-[#E5E5E5] tracking-widest pb-1"
-            style={{ fontSize: "3vw", fontFamily: "Roboto" }}
+            className="text-[#E5E5E5] tracking-widest pb-1 text-[2.5rem]"
+            style={{ fontFamily: "Roboto" }}
           >
             Soles
           </h1>
           <p
-            className="shadow-lg shadow-[#040c16] text-left text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5"
+            className="shadow-lg shadow-[#040c16] text-left text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5 text-[0.9rem]"
             style={{
-              fontSize: "1.25vw",
               fontFamily: "Roboto",
               wordSpacing: "1px",
             }}
@@ -125,9 +120,8 @@ const Projects = () => {
             Recreation of a e-commerce sites based on shoes. A CRUD website focusing on React and Javascript.
           </p>
           <span
-            className="text-[#C9ADA7] py-3"
+            className="text-[#C9ADA7] py-3 text-[0.9rem]"
             style={{
-              fontSize: "1.25vw",
               fontFamily: "Roboto",
               wordSpacing: "8px",
             }}
@@ -154,8 +148,7 @@ const Projects = () => {
             href="https://github.com/kibapika/Soles---Ecommerce"
           >
             <img
-              className="contrast-50 hover:contrast-100 hover:duration-500 rounded-lg"
-              style={{ width: "90vw" }}
+            className="contrast-50 hover:contrast-100 hover:duration-500 rounded-lg w-[90vw] max-[500px]:w-[200vw]"
               alt="ecom"
               src={ecom}
             />
@@ -165,7 +158,7 @@ const Projects = () => {
       {/* ----------------------------------------------------------- */}
 
       <section 
-      className="flex flex-row content-center items-center mt-[80px]"
+      className="flex flex-row content-center items-center mt-[80px] max-[500px]:mt-[50px]"
       data-aos="fade-up"
       data-aos-easing="linear"
       data-aos-delay="1400"
@@ -176,23 +169,21 @@ const Projects = () => {
           href="https://github.com/kibapika/Temps"
         >
           <img
-            className="contrast-50 hover:contrast-100 hover:duration-500 rounded-lg"
-            style={{ width: "70vw" }}
+            className="contrast-50 hover:contrast-100 hover:duration-500 rounded-lg w-[70vw] max-[500px]:w-[150vw]"
             alt="temp"
             src={temp}
           />
         </a>
         <div className="flex flex-col items-end ml-8">
           <h1
-            className="text-[#E5E5E5] tracking-widest pb-1"
-            style={{ fontSize: "3vw", fontFamily: "Roboto" }}
+            className="text-[#E5E5E5] tracking-widest pb-1 text-[2.5rem]"
+            style={{ fontFamily: "Roboto" }}
           >
             Temps
           </h1>
           <p
-            className="shadow-lg shadow-[#040c16] text-right text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5"
+            className="shadow-lg shadow-[#040c16] text-right text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5 text-[0.9rem]"
             style={{
-              fontSize: "1.25vw",
               fontFamily: "Roboto",
               wordSpacing: "1px",
             }}
@@ -200,9 +191,8 @@ const Projects = () => {
             Recreation of a weather app using React.js and axios. Mobile friendly!
           </p>
           <span
-            className="text-[#C9ADA7] py-3"
+            className="text-[#C9ADA7] py-3 text-[0.9rem]"
             style={{
-              fontSize: "1.25vw",
               fontFamily: "Roboto",
               wordSpacing: "8px",
             }}

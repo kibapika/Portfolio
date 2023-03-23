@@ -21,8 +21,7 @@ const Skills = () => {
 
   return (
     <div
-      className="flex flex-col justify-center items-start"
-      style={{ width: "70vw" }}
+      className="flex flex-col justify-center items-start w-[70vw] max-[500px]:w-[125vw]"
     >
       <div
         data-aos="zoom-out"
@@ -31,14 +30,14 @@ const Skills = () => {
         data-aos-offset="0"
       >
         <h1
-          className="text-[#FCA311] tracking-wide pb-2"
-          style={{ fontSize: "5vw", fontFamily: "Share Tech Mono" }}
+          className="text-[#FCA311] tracking-wide pb-2 text-[4rem]"
+          style={{ fontFamily: "Share Tech Mono" }}
         >
           Technologies
         </h1>
         <p
-          className="text-[#C9ADA7] tracking-widest"
-          style={{ fontSize: "1.5vw", fontFamily: "Roboto" }}
+          className="text-[#C9ADA7] tracking-widest text-[1.25rem] "
+          style={{ fontFamily: "Roboto" }}
         >
           Here are some technologies that I have used:
         </p>

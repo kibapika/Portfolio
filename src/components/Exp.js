@@ -73,34 +73,28 @@ const Exp = () => {
 
   return (
     <div
-      className="flex flex-col justify-center items-start"
-      style={{ width: "70vw" }}
+      className="flex flex-col justify-center items-start w-[70vw] max-[500px]:w-[125vw] max-[500px]:mt-[20rem]"
       data-aos="fade-up"
       data-aos-easing="linear"
       data-aos-delay="500"
       data-aos-offset="0"
     >
       <h1
-        className="text-[#FCA311] tracking-wide pb-5"
-        style={{ fontSize: "5vw", fontFamily: "Share Tech Mono" }}
+        className="text-[#FCA311] tracking-wide pb-5 text-[4rem]"
+        style={{fontFamily: "Share Tech Mono" }}
       >
         Experience
       </h1>
 
       <label
-        className="flex flex-row justify-between items-center py-3 px-7 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5] hover:bg-[#161a1d] hover:duration-200"
+        className="flex flex-row justify-between items-center py-3 px-7 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5] hover:bg-[#161a1d] hover:duration-200 text-[1rem] w-[70vw] max-[500px]:w-[125vw]"
         style={{
-          width: "70vw",
-          fontSize: "1.25vw",
           fontFamily: "Share Tech Mono",
         }}
         for="check3"
       >
         <div
-          className="flex flex-row justify-between items-center"
-          style={{
-            width: "60.5vw"
-          }}
+          className="flex flex-row justify-between items-center w-[60.5vw] max-[500px]:w-[100vw]"
         >
           <span>Student | Fullstack Academy</span>
           <span>2022 - 2023</span>
@@ -119,7 +113,7 @@ const Exp = () => {
         onChange={handle3}
       />
 
-      <div className="test3" style={{ width: "70vw" }}>
+      <div className="test3 w-[70vw] max-[500px]:w-[125vw]">
         <p className="bg-[#4A4E69] mt-3 p-3 rounded-lg text-[#C9ADA7]">
           ▷ Intensive 19-weeks immersive software engineering coding bootcamp
           <br></br>
@@ -132,19 +126,14 @@ const Exp = () => {
       {/* ------------------------------------------------------------------------ */}
 
       <label
-        className="flex flex-row justify-between items-center py-3 px-7 mt-3 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5] hover:bg-[#161a1d] hover:duration-200"
+        className="flex flex-row justify-between items-center py-3 px-7 mt-3 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5] hover:bg-[#161a1d] hover:duration-200 text-[1rem] max-[500px]:text-[0.9rem] w-[70vw] max-[500px]:w-[125vw]"
         style={{
-          width: "70vw",
-          fontSize: "1.25vw",
           fontFamily: "Share Tech Mono",
         }}
         for="check1"
       >
         <div
-          className="flex flex-row justify-between items-center"
-          style={{
-            width: "60.5vw"
-          }}
+          className="flex flex-row justify-between items-center w-[60.5vw] max-[500px]:w-[100vw]"
         >
           <span>
             Registered Dietitian | Family Residences and Essential Enterprises,
@@ -186,19 +175,14 @@ const Exp = () => {
       {/* ------------------------------------------------------------------------ */}
 
       <label
-        className="flex flex-row justify-between items-center py-3 px-7 mt-3 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5] hover:bg-[#161a1d] hover:duration-200"
+        className="flex flex-row justify-between items-center py-3 px-7 mt-3 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5] hover:bg-[#161a1d] hover:duration-200 text-[1rem] max-[500px]:text-[0.9rem] w-[70vw] max-[500px]:w-[125vw]"
         style={{
-          width: "70vw",
-          fontSize: "1.25vw",
           fontFamily: "Share Tech Mono",
         }}
         for="check2"
       >
         <div
-          className="flex flex-row justify-between items-center"
-          style={{
-            width: "60.5vw"
-          }}
+          className="flex flex-row justify-between items-center w-[60.5vw] max-[500px]:w-[100vw]"
         >
           <span>
             Registered Dietitian | The Pavilion at Queens for Rehabilitation &

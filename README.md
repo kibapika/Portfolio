@@ -1,15 +1,14 @@
 <div align="center">
   <img alt="Logo" src="public/img/el.png" width="100" />
 </div>
+
 <h1 align="center">
-  website
+<a href="https://portfolio-evali.vercel.app/" >Eva Li</a>
 </h1>
 
 <p align="center">
-Personal Portfolio Website built with <a href="https://github.com/facebook/create-react-app">React App</a>.
+Personal Portfolio Website built with <a href="https://github.com/facebook/create-react-app">React App</a> and hosted by <a href="https://www.vercel.com/">Vercel</a>.
 </p>
-
-<!-- and hosted by <a href="https://www.netlify.com/">Netlify</a> -->
 
 ![homePg](public/img/Portfolio.png)
 

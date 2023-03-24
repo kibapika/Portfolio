@@ -135,12 +135,6 @@ const Projects = () => {
             >
               <FiGithub />
             </a>
-            <a
-              className="hover:text-[#FCA311] hover:duration-300 hover:translate-y-[-0.20em]"
-              href="https://github.com/kibapika/Soles---Ecommerce"
-            >
-              <FiExternalLink />
-            </a>
           </div>
         </div>
         <a
@@ -166,7 +160,7 @@ const Projects = () => {
       >
         <a
           className="shadow-lg shadow-[#040c16]"
-          href="https://github.com/kibapika/Temps"
+          href="https://temps-evali.vercel.app/"
         >
           <img
             className="contrast-50 hover:contrast-100 hover:duration-500 rounded-lg w-[70vw] max-[500px]:w-[150vw]"
@@ -208,7 +202,7 @@ const Projects = () => {
             </a>
             <a
               className="hover:text-[#FCA311] hover:duration-300 hover:translate-y-[-0.20em]"
-              href="https://github.com/kibapika/Temps"
+              href="https://temps-evali.vercel.app/"
             >
               <FiExternalLink />
             </a>

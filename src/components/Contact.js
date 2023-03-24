@@ -14,7 +14,7 @@ const Contact = () => {
       data-aos-easing="linear"
       data-aos-delay="500"
       data-aos-offset="0"
-      className="flex flex-col justify-center items-start mt-[100px] w-[70vw] max-[500px]:w-[125vw]"
+      className="flex flex-col justify-center items-start w-[70vw] max-[500px]:w-[125vw]"
     >
       <h1
         className="text-[#FCA311] tracking-wide pb-2 text-[4rem]"

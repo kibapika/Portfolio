@@ -21,28 +21,28 @@ const Skills = () => {
 
   return (
     <div
-      className="flex flex-col justify-center items-start w-[70vw] max-[500px]:w-[125vw]"
+      className="flex flex-col justify-center items-start w-[70vw] max-[500px]:w-[60%] max-[500px]:mt-[28rem]"
     >
       <div
         data-aos="zoom-out"
         data-aos-easing="linear"
         data-aos-delay="500"
         data-aos-offset="0"
-      >
+      > 
         <h1
-          className="text-[#FCA311] tracking-wide pb-2 text-[4rem]"
+          className="text-[#FCA311] tracking-wide pb-2 text-[4rem] max-[500px]:text-[2.5rem]"
           style={{ fontFamily: "Share Tech Mono" }}
         >
           Technologies
         </h1>
         <p
-          className="text-[#C9ADA7] tracking-widest text-[1.25rem] "
+          className="text-[#C9ADA7] tracking-widest text-[1.25rem] max-[500px]:text-[1rem]"
           style={{ fontFamily: "Roboto" }}
         >
           Here are some technologies that I have used:
         </p>
       </div>
-      <div className="png w-full grid grid-rows-2 grid-cols-5 gap-y-10 gap-x-4 py-8 place-items-center">
+      <div className="png w-full grid grid-rows-2 grid-cols-5 gap-y-10 gap-x-4 py-8 place-items-center max-[500px]:grid-cols-2">
         <div
           data-aos="fade-down"
           data-aos-easing="linear"

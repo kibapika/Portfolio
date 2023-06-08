@@ -13,19 +13,19 @@ const About = () => {
       data-aos-easing="linear"
       data-aos-delay="500"
       data-aos-offset="0"
-      className="flex flex-col justify-center items-start w-[70vw] max-[500px]:w-[125vw] max-[500px]:mt-[8rem]"
+      className="flex flex-col justify-center items-start w-[70vw] max-[500px]:w-[65%] max-[500px]:mt-[10rem]"
     >
       <h1
-        className="text-[#FCA311] tracking-wide pb-5 text-[4rem]"
+        className="text-[#FCA311] tracking-wide pb-5 text-[4rem] max-[500px]:text-[3rem]"
         style={{fontFamily: "Share Tech Mono" }}
       >
         About Me
       </h1>
       <div
-        className="flex flex-row justify-center items-center"
+        className="flex flex-row justify-center items-center max-[500px]:flex-col"
       >
         <p
-          className="text-[#C9ADA7] tracking-widest pr-10 text-[1rem]"
+          className="text-[#C9ADA7] tracking-widest pr-10 text-[1rem] max-[500px]:pr-0"
           style={{fontFamily: "Roboto" }}
         >
           I am a recent graduate from Fullstack Academy and became a Software
@@ -43,7 +43,7 @@ const About = () => {
           my new skills to further aid people in some ways.
         </p>
         <img
-          className="headShot contrast-75 w-[28vw] max-[500px]:w-[50vw]"
+          className="headShot contrast-75 w-[28vw] max-[500px]:w-[50vw] max-[500px]:mt-[1.5rem]"
           alt="head-shot"
           src="/img/evaLi.jpeg"
         />

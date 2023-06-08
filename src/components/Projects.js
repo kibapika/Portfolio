@@ -14,10 +14,10 @@ const Projects = () => {
 
   return (
     <div
-      className="flex flex-col justify-center items-start w-[70vw] max-[500px]:w-[125vw]"
+      className="flex flex-col justify-center items-start w-[70vw] max-[500px]:w-[60%] max-[500px]:mt-[15rem]"
     >
       <h1
-        className="text-[#FCA311] tracking-wide pb-2 text-[4rem]"
+        className="text-[#FCA311] tracking-wide pb-2 text-[4rem] max-[500px]:text-[3rem]"
         style={{ fontFamily: "Share Tech Mono" }}
         data-aos="fade-up"
         data-aos-easing="linear"
@@ -30,7 +30,7 @@ const Projects = () => {
       {/* ----------------------------------------------------------- */}
 
       <section 
-      className="flex flex-row content-center items-center"
+      className="flex flex-row content-center items-center max-[500px]:flex-col"
       data-aos="fade-up"
       data-aos-easing="linear"
       data-aos-delay="800"
@@ -46,15 +46,15 @@ const Projects = () => {
             src={mindful}
           />
         </a>
-        <div className="flex flex-col items-end ml-8">
+        <div className="flex flex-col items-end ml-8 max-[500px]:items-center max-[500px]:ml-0">
           <h1
-            className="text-[#E5E5E5] tracking-widest pb-1 text-[2.5rem]"
+            className="text-[#E5E5E5] tracking-widest pb-1 text-[2.5rem] max-[500px]:text-[2rem] max-[500px]:pt-[0.5rem]"
             style={{ fontFamily: "Roboto" }}
           >
             Mindful
           </h1>
           <p
-            className="shadow-lg shadow-[#040c16] text-right text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5 text-[0.9rem]"
+            className="shadow-lg shadow-[#040c16] text-right text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5 text-[0.9rem] max-[500px]:text-[0.8rem] max-[500px]:text-center"
             style={{
               fontFamily: "Roboto",
               wordSpacing: "1px",
@@ -69,7 +69,7 @@ const Projects = () => {
             mental health.
           </p>
           <span
-            className="text-[#C9ADA7] py-3 text-[0.9rem]"
+            className="text-[#C9ADA7] py-3 text-[0.9rem] max-[500px]:text-[0.8rem] max-[500px]:text-center"
             style={{
               fontFamily: "Roboto",
               wordSpacing: "8px",
@@ -97,21 +97,21 @@ const Projects = () => {
       {/* ----------------------------------------------------------- */}
 
       <section 
-      className="flex flex-row content-center items-center mt-[80px] max-[500px]:mt-[30px]"
+      className="flex flex-row content-center items-center mt-[80px] max-[500px]:mt-[30px] max-[500px]:flex-col"
       data-aos="fade-up"
       data-aos-easing="linear"
       data-aos-delay="1100"
       data-aos-offset="0"
       >
-        <div className="flex flex-col items-start mr-8">
+        <div className="flex flex-col items-start mr-8 max-[500px]:items-center max-[500px]:mr-0">
           <h1
-            className="text-[#E5E5E5] tracking-widest pb-1 text-[2.5rem]"
+            className="text-[#E5E5E5] tracking-widest pb-1 text-[2.5rem] max-[500px]:text-[2rem]"
             style={{ fontFamily: "Roboto" }}
           >
             Soles
           </h1>
           <p
-            className="shadow-lg shadow-[#040c16] text-left text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5 text-[0.9rem]"
+            className="shadow-lg shadow-[#040c16] text-left text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5 text-[0.9rem] max-[500px]:text-[0.8rem] max-[500px]:text-center"
             style={{
               fontFamily: "Roboto",
               wordSpacing: "1px",
@@ -120,7 +120,7 @@ const Projects = () => {
             Recreation of a e-commerce sites based on shoes. A CRUD website focusing on React and Javascript.
           </p>
           <span
-            className="text-[#C9ADA7] py-3 text-[0.9rem]"
+            className="text-[#C9ADA7] py-3 text-[0.9rem] max-[500px]:text-[0.8rem] max-[500px]:text-center"
             style={{
               fontFamily: "Roboto",
               wordSpacing: "8px",
@@ -138,7 +138,7 @@ const Projects = () => {
           </div>
         </div>
         <a
-            className="shadow-lg shadow-[#040c16]"
+            className="shadow-lg shadow-[#040c16] max-[500px]:pt-[1rem]"
             href="https://github.com/kibapika/Soles---Ecommerce"
           >
             <img
@@ -152,7 +152,7 @@ const Projects = () => {
       {/* ----------------------------------------------------------- */}
 
       <section 
-      className="flex flex-row content-center items-center mt-[80px] max-[500px]:mt-[50px]"
+      className="flex flex-row content-center items-center mt-[80px] max-[500px]:mt-[50px] max-[500px]:flex-col"
       data-aos="fade-up"
       data-aos-easing="linear"
       data-aos-delay="1400"
@@ -168,15 +168,15 @@ const Projects = () => {
             src={temp}
           />
         </a>
-        <div className="flex flex-col items-end ml-8">
+        <div className="flex flex-col items-end ml-8 max-[500px]:items-center max-[500px]:ml-0">
           <h1
-            className="text-[#E5E5E5] tracking-widest pb-1 text-[2.5rem]"
+            className="text-[#E5E5E5] tracking-widest pb-1 text-[2.5rem] max-[500px]:text-[2rem] max-[500px]:pt-[0.75rem]"
             style={{ fontFamily: "Roboto" }}
           >
             Temps
           </h1>
           <p
-            className="shadow-lg shadow-[#040c16] text-right text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5 text-[0.9rem]"
+            className="shadow-lg shadow-[#040c16] text-right text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5 text-[0.9rem] max-[500px]:text-[0.8rem] max-[500px]:text-center"
             style={{
               fontFamily: "Roboto",
               wordSpacing: "1px",
@@ -185,7 +185,7 @@ const Projects = () => {
             Recreation of a weather app using React.js and axios. Mobile friendly!
           </p>
           <span
-            className="text-[#C9ADA7] py-3 text-[0.9rem]"
+            className="text-[#C9ADA7] py-3 text-[0.9rem] max-[500px]:text-[0.8rem] max-[500px]:text-center"
             style={{
               fontFamily: "Roboto",
               wordSpacing: "8px",

@@ -73,28 +73,28 @@ const Exp = () => {
 
   return (
     <div
-      className="flex flex-col justify-center items-start w-[70vw] max-[500px]:w-[125vw] max-[500px]:mt-[20rem]"
+      className="flex flex-col justify-center items-start w-[70vw] max-[500px]:w-[65%] max-[500px]:mt-[25rem]"
       data-aos="fade-up"
       data-aos-easing="linear"
       data-aos-delay="500"
       data-aos-offset="0"
     >
       <h1
-        className="text-[#FCA311] tracking-wide pb-5 text-[4rem]"
+        className="text-[#FCA311] tracking-wide pb-5 text-[4rem] max-[500px]:text-[3rem]"
         style={{fontFamily: "Share Tech Mono" }}
       >
         Experience
       </h1>
 
       <label
-        className="flex flex-row justify-between items-center py-3 px-7 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5] hover:bg-[#161a1d] hover:duration-200 text-[1rem] w-[70vw] max-[500px]:w-[125vw]"
+        className="flex flex-row justify-between items-center py-3 px-7 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5] hover:bg-[#161a1d] hover:duration-200 text-[1rem] w-[70vw] max-[500px]:w-full"
         style={{
           fontFamily: "Share Tech Mono",
         }}
         for="check3"
       >
         <div
-          className="flex flex-row justify-between items-center w-[60.5vw] max-[500px]:w-[100vw]"
+          className="flex flex-row justify-between items-center w-[60.5vw max-[500px]:text-[13px]"
         >
           <span>Student | Fullstack Academy</span>
           <span>2022 - 2023</span>
@@ -113,8 +113,8 @@ const Exp = () => {
         onChange={handle3}
       />
 
-      <div className="test3 w-[70vw] max-[500px]:w-[125vw]">
-        <p className="bg-[#4A4E69] mt-3 p-3 rounded-lg text-[#C9ADA7]">
+      <div className="test3 w-[70vw] max-[500px]:w-full">
+        <p className="bg-[#4A4E69] mt-3 p-3 rounded-lg text-[#C9ADA7] max-[500px]:text-[13px]">
           ▷ Intensive 19-weeks immersive software engineering coding bootcamp
           <br></br>
           <br></br>▷ Hands-on learning with daily projects and pair-programming
@@ -126,14 +126,14 @@ const Exp = () => {
       {/* ------------------------------------------------------------------------ */}
 
       <label
-        className="flex flex-row justify-between items-center py-3 px-7 mt-3 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5] hover:bg-[#161a1d] hover:duration-200 text-[1rem] max-[500px]:text-[0.9rem] w-[70vw] max-[500px]:w-[125vw]"
+        className="flex flex-row justify-between items-center py-3 px-7 mt-3 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5] hover:bg-[#161a1d] hover:duration-200 text-[1rem] max-[500px]:text-[0.9rem] w-[70vw] max-[500px]:w-full"
         style={{
           fontFamily: "Share Tech Mono",
         }}
         for="check1"
       >
         <div
-          className="flex flex-row justify-between items-center w-[60.5vw] max-[500px]:w-[100vw]"
+          className="flex flex-row justify-between items-center w-[60.5vw] max-[500px]:text-[13px]"
         >
           <span>
             Registered Dietitian | Family Residences and Essential Enterprises,
@@ -155,8 +155,8 @@ const Exp = () => {
         onChange={handle1}
       />
 
-      <div className="test1">
-        <p className="bg-[#4A4E69] mt-3 p-3 rounded-lg text-[#C9ADA7]">
+      <div className="test1 w-[70vw] max-[500px]:w-full">
+        <p className="bg-[#4A4E69] mt-3 p-3 rounded-lg text-[#C9ADA7] max-[500px]:text-[13px]">
           ▷ Traveled to 50+group homes throughout New York to provide outpatient
           care to approximately 12 individuals with special needs per week
           <br></br>
@@ -175,14 +175,14 @@ const Exp = () => {
       {/* ------------------------------------------------------------------------ */}
 
       <label
-        className="flex flex-row justify-between items-center py-3 px-7 mt-3 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5] hover:bg-[#161a1d] hover:duration-200 text-[1rem] max-[500px]:text-[0.9rem] w-[70vw] max-[500px]:w-[125vw]"
+        className="flex flex-row justify-between items-center py-3 px-7 mt-3 rounded-lg font-bold text-[#C9ADA7] bg-[#000000] cursor-pointer hover:text-[#E5E5E5] hover:bg-[#161a1d] hover:duration-200 text-[1rem] max-[500px]:text-[0.9rem] w-[70vw] max-[500px]:w-full"
         style={{
           fontFamily: "Share Tech Mono",
         }}
         for="check2"
       >
         <div
-          className="flex flex-row justify-between items-center w-[60.5vw] max-[500px]:w-[100vw]"
+          className="flex flex-row justify-between items-center w-[60.5vw] max-[500px]:text-[13px]"
         >
           <span>
             Registered Dietitian | The Pavilion at Queens for Rehabilitation &
@@ -204,8 +204,8 @@ const Exp = () => {
         onChange={handle2}
       />
 
-      <div className="test2">
-        <p className="bg-[#4A4E69] mt-3 p-3 rounded-lg text-[#C9ADA7]">
+      <div className="test2 w-[70vw] max-[500px]:w-full">
+        <p className="bg-[#4A4E69] mt-3 p-3 rounded-lg text-[#C9ADA7] max-[500px]:text-[13px]">
           ▷ Reviewed and monitored the 90+ residents’ nutritional status,
           prescribed therapeutic diets, and developed care plans within the
           long-term nursing and short-term rehabilitation settings

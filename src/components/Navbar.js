@@ -28,14 +28,14 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={"header fixed w-full " + hState}>
+    <div className={"header fixed w-full max-[500px]:flex max-[500px]:justify-center " + hState}>
       <div
         className="flex flex-row justify-between items-center px-12"
         style={{ height: "13vh" }}
       >
         <Link to="intro" smooth={true} duration={800}>
           <img
-            className="rounded-full cursor-pointer"
+            className="rounded-full cursor-pointer max-[500px]:w-[20vw]"
             width="58"
             alt="logo"
             src="/img/el.png"
@@ -46,7 +46,7 @@ const Navbar = () => {
           />
         </Link>
         <nav
-          className="flex felx-row items-center tracking-wide"
+          className="flex felx-row items-center tracking-wide max-[650px]:hidden"
           style={{ fontSize: "17.5px", fontFamily: "Share Tech Mono" }}
         >
           <Link to="about" smooth={true} duration={800}>

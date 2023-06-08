@@ -179,7 +179,7 @@ body {
 }
 
 input:checked + .test1 {
-  height: 255px;
+  height: 280px;
 }
 
 #check2 {
@@ -193,7 +193,7 @@ input:checked + .test1 {
 }
 
 input:checked + .test2 {
-  height: 350px;
+  height: 375px;
 }
 
 #check3 {
@@ -212,18 +212,18 @@ input:checked + .test3 {
 
 @media (max-width: 500px) {
   input:checked + .test3 {
-    height: 182px;
+    height: 215px;
   }
 }
 
 @media (max-width: 500px) {
   input:checked + .test2 {
-    height: 470px;
+    height: 523px;
   }
 }
 
 @media (max-width: 500px) {
   input:checked + .test1 {
-    height: 375px;
+    height: 427px;
   }
 }

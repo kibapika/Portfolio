@@ -19,54 +19,54 @@ const Home = () => {
 
   return (
     <div className="w-full h-screen">
-      <header className="bg-[#14213d]">
+      <header className="bg-[#14213d] max-[500px]:h-[10px]">
         <Navbar />
       </header>
       <section className="sidebar bg-[#14213d]">
         <Social />
       </section>
-      <section className="sidebar bg-[#14213d]">
+      <section className="sidebar bg-[#14213d] max-[500px]:hidden">
         <Built />
       </section>
       <section
         name="intro"
-        className="sec flex justify-center items-center w-full h-screen bg-[#14213d] max-[500px]:w-[41.5rem] max-[500px]:h-[54rem]"
+        className="sec flex justify-center items-center w-auto h-screen bg-[#14213d] max-[500px]:h-[100vh]"
       >
         <Intro />
       </section>
       <section
         name="about"
-        className="sec flex justify-center items-center w-full h-full bg-[#14213d] max-[500px]:w-[41.5rem]"
+        className="sec flex justify-center items-center w-auto h-full bg-[#14213d] max-[500px]:h-screen"
       >
         <About />
       </section>
       <section
         name="exp"
-        className="sec flex justify-center items-center pt-10 w-full h-[85vh] max-h-fit bg-[#14213d] max-[500px]:w-[41.5rem]"
+        className="sec flex justify-center items-center pt-10 w-auto h-[85vh] max-h-fit bg-[#14213d] max-[500px]:h-screen"
       >
         <Exp />
       </section>
       <section
         name="skills"
-        className="sec flex justify-center items-center w-full h-full h-full bg-[#14213d] my-10 max-[500px]:w-[41.5rem]"
+        className="sec flex justify-center items-center w-auto h-full h-full bg-[#14213d] my-10 max-[500px]:h-screen"
       >
         <Skills />
       </section>
       <section
         name="projects"
-        className="sec flex justify-center items-start w-full h-[200vh] max-h-fit bg-[#14213d] pt-8 max-[500px]:w-[41.5rem] max-[500px]:h-[155vh]"
+        className="sec flex justify-center items-start w-auto h-[200vh] max-h-fit bg-[#14213d] pt-8 max-[500px]:h-[210vh]"
       >
         <Projects />
       </section>
       <section
         name="contact"
-        className="sec flex justify-center items-center w-full h-full h-full bg-[#14213d] max-[500px]:w-[41.5rem]"
+        className="sec flex justify-center items-center w-auto h-full h-full bg-[#14213d] max-[500px]:h-screen"
       >
         <Contact />
       </section>
       <section
         name="footer"
-        className="sec flex justify-center items-center w-full bg-[#14213d] max-[500px]:w-[41.5rem] max-[500px]:h-[10vh]"
+        className="sec flex justify-center items-center w-auto bg-[#14213d] max-[500px]:h-[10vh]"
       >
         <Footer />
       </section>

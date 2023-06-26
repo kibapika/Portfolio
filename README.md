@@ -10,7 +10,10 @@
 Personal Portfolio Website built with <a href="https://github.com/facebook/create-react-app">React App</a> and hosted by <a href="https://www.vercel.com/">Vercel</a>.
 </p>
 
-![homePg](public/img/Portfolio.png)
+<div align="center">
+<img src="Portfolio.png" alt="homgPg">
+<img src="mobile.png" alt="mobilePg" width="200">
+</div>
 
 ## Installation & Set Up
 

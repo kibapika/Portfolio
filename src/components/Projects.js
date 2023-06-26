@@ -6,6 +6,7 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 import mindful from "../components/project/mindfulPic.png";
 import ecom from "../components/project/ecommercePic.png";
 import temp from "../components/project/tempsPic.png";
+import eve from "../components/project/evePic.png";
 
 const Projects = () => {
   useEffect(() => {
@@ -30,7 +31,7 @@ const Projects = () => {
       {/* ----------------------------------------------------------- */}
 
       <section 
-      className="flex flex-row content-center items-center max-[500px]:flex-col"
+      className="flex flex-row content-center items-center border-solid border-b-2 border-[#848482] border-opacity-25 p-5 max-[500px]:flex-col"
       data-aos="fade-up"
       data-aos-easing="linear"
       data-aos-delay="800"
@@ -97,7 +98,7 @@ const Projects = () => {
       {/* ----------------------------------------------------------- */}
 
       <section 
-      className="flex flex-row content-center items-center mt-[80px] max-[500px]:mt-[30px] max-[500px]:flex-col"
+      className="flex flex-row content-center items-center border-solid border-b-2 border-[#848482] border-opacity-25 p-5 max-[500px]:mt-[30px] max-[500px]:flex-col"
       data-aos="fade-up"
       data-aos-easing="linear"
       data-aos-delay="1100"
@@ -152,7 +153,7 @@ const Projects = () => {
       {/* ----------------------------------------------------------- */}
 
       <section 
-      className="flex flex-row content-center items-center mt-[80px] max-[500px]:mt-[50px] max-[500px]:flex-col"
+      className="flex flex-row content-center items-center border-solid border-b-2 border-[#848482] border-opacity-25 p-5 max-[500px]:mt-[50px] max-[500px]:flex-col"
       data-aos="fade-up"
       data-aos-easing="linear"
       data-aos-delay="1400"
@@ -211,6 +212,65 @@ const Projects = () => {
       </section>
 
       {/* ----------------------------------------------------------- */}
+      
+      <section 
+      className="flex flex-row content-center items-center border-solid border-b-2 border-[#848482] border-opacity-25 p-5 max-[500px]:mt-[30px] max-[500px]:flex-col"
+      data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-delay="1700"
+      data-aos-offset="0"
+      >
+        <div className="flex flex-col items-start mr-8 max-[500px]:items-center max-[500px]:mr-0">
+          <h1
+            className="text-[#E5E5E5] tracking-widest pb-1 text-[2.5rem] max-[500px]:text-[2rem]"
+            style={{ fontFamily: "Roboto" }}
+          >
+            EVE
+          </h1>
+          <p
+            className="shadow-lg shadow-[#040c16] text-left text-[#C9ADA7] tracking-wide bg-[#4A4E69] rounded-md p-5 text-[0.9rem] max-[500px]:text-[0.8rem] max-[500px]:text-center"
+            style={{
+              fontFamily: "Roboto",
+              wordSpacing: "1px",
+            }}
+          >
+            Recreation of a search engine app using React.js and axios. Mobile friendly!
+          </p>
+          <span
+            className="text-[#C9ADA7] py-3 text-[0.9rem] max-[500px]:text-[0.8rem] max-[500px]:text-center"
+            style={{
+              fontFamily: "Roboto",
+              wordSpacing: "8px",
+            }}
+          >
+            React Node.js Axios Bootstrap CSS
+          </span>
+          <div className="flex flex-row text-[22px] text-[#E5E5E5]">
+            <a
+              className="pr-5 hover:text-[#FCA311] hover:duration-200 hover:translate-y-[-0.20em]"
+              href="https://github.com/kibapika/EVE"
+            >
+              <FiGithub />
+            </a>
+            <a
+              className="hover:text-[#FCA311] hover:duration-300 hover:translate-y-[-0.20em]"
+              href="https://eve-evali.vercel.app/"
+            >
+              <FiExternalLink />
+            </a>
+          </div>
+        </div>
+        <a
+            className="shadow-lg shadow-[#040c16] max-[500px]:pt-[1rem]"
+            href="https://eve-evali.vercel.app/"
+          >
+            <img
+            className="contrast-50 hover:contrast-100 hover:duration-500 rounded-lg w-[90vw] max-[500px]:w-[200vw]"
+              alt="eve"
+              src={eve}
+            />
+          </a>
+      </section>
     </div>
   );
 };

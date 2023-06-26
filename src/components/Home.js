@@ -54,7 +54,7 @@ const Home = () => {
       </section>
       <section
         name="projects"
-        className="sec flex justify-center items-start w-auto h-[200vh] max-h-fit bg-[#14213d] pt-8 max-[500px]:h-[210vh]"
+        className="sec flex justify-center items-start w-auto h-[220vh] max-h-fit bg-[#14213d] pt-8 max-[500px]:h-[270vh]"
       >
         <Projects />
       </section>
